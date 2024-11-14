@@ -11,12 +11,13 @@ body{
 	margin-bottom: 50px;
 	border-top-left-radius: 50px;
 	border-bottom-right-radius: 50px;
+  padding: 35px;
 }
 
-h1{
-	color: indigo;
+h1, h2 {
+	color: rgb(79, 2, 134);
 	font-variant: small-caps;
-	text-shadow: 1px 1px white;
+	text-shadow: 3px 3px white;
 }
 
 p{
@@ -37,6 +38,8 @@ p{
   border-radius: 25px;
   overflow: hidden;
   box-shadow: 10px 10px 10px gray;  
+  border: 3px solid darkblue;
+  font-style: italic
 }
 
 .kepkeret img{
@@ -47,5 +50,10 @@ p{
 
 
 a{
-  text-decoration: none;
+  text-decoration:none;
+  font-weight:bold
+}
+
+ul li{
+  margin-bottom: 25px;
 }
